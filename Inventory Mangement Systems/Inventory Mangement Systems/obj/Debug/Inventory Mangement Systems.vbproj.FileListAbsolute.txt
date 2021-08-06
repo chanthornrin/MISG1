@@ -37,3 +37,22 @@ C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.exe
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.pdb
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.xml
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.exe.config
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory Mangement Systems.exe
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory Mangement Systems.xml
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory Mangement Systems.pdb
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.exe
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.pdb
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.xml
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory Mangement Systems.vbprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Category.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.CreateUser.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Customer.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Employee.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Mainform.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Resources.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Product.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Purches.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Sale.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Supplier.resources
+C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory Mangement Systems.vbproj.GenerateResource.Cache

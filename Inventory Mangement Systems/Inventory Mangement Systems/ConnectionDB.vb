@@ -9,7 +9,7 @@ Module ConnectionDB
     Sub ConnectionD()
         Cn = New SqlConnection
         With Cn
-            .ConnectionString = "Data Source=DESKTOP-9MGF6NN;Initial Catalog=Inventory_Managemant_Systems;Integrated Security=True"
+            .ConnectionString = "Data Source=MSI;Initial Catalog=Inventory_Managemant_Systems;Integrated Security=True"
         End With
     End Sub
 End Module
