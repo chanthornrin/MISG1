@@ -25,18 +25,10 @@ Partial Class Customer
         Me.Topproduct = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtCusEmail = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -44,10 +36,18 @@ Partial Class Customer
         Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtGender = New System.Windows.Forms.TextBox()
+        Me.txtCAddress = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.txtCPhone = New System.Windows.Forms.TextBox()
+        Me.txtCusID = New System.Windows.Forms.TextBox()
+        Me.txtCLName = New System.Windows.Forms.TextBox()
+        Me.txtCFName = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Topproduct.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -80,20 +80,20 @@ Partial Class Customer
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Info
         Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.TextBox5)
+        Me.Panel1.Controls.Add(Me.txtCusEmail)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.DataGridView1)
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Controls.Add(Me.TextBox6)
-        Me.Panel1.Controls.Add(Me.TextBox8)
+        Me.Panel1.Controls.Add(Me.txtGender)
+        Me.Panel1.Controls.Add(Me.txtCAddress)
         Me.Panel1.Controls.Add(Me.Label8)
         Me.Panel1.Controls.Add(Me.Label9)
-        Me.Panel1.Controls.Add(Me.TextBox4)
-        Me.Panel1.Controls.Add(Me.TextBox1)
-        Me.Panel1.Controls.Add(Me.TextBox3)
-        Me.Panel1.Controls.Add(Me.TextBox2)
+        Me.Panel1.Controls.Add(Me.txtCPhone)
+        Me.Panel1.Controls.Add(Me.txtCusID)
+        Me.Panel1.Controls.Add(Me.txtCLName)
+        Me.Panel1.Controls.Add(Me.txtCFName)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -102,119 +102,46 @@ Partial Class Customer
         Me.Panel1.Size = New System.Drawing.Size(1436, 628)
         Me.Panel1.TabIndex = 5
         '
-        'Button2
+        'Label3
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button2.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(1202, 62)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(100, 40)
-        Me.Button2.TabIndex = 76
-        Me.Button2.Text = "Update"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(16, 66)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(83, 33)
+        Me.Label3.TabIndex = 81
+        Me.Label3.Text = "E-mail"
         '
-        'Button1
+        'txtCusEmail
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(1065, 64)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 40)
-        Me.Button1.TabIndex = 75
-        Me.Button1.Text = "Insert"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.txtCusEmail.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtCusEmail.Location = New System.Drawing.Point(119, 61)
+        Me.txtCusEmail.Name = "txtCusEmail"
+        Me.txtCusEmail.Size = New System.Drawing.Size(184, 38)
+        Me.txtCusEmail.TabIndex = 80
         '
-        'TextBox6
+        'Label5
         '
-        Me.TextBox6.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.TextBox6.Location = New System.Drawing.Point(1118, 6)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(184, 38)
-        Me.TextBox6.TabIndex = 74
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(673, 9)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(126, 33)
+        Me.Label5.TabIndex = 79
+        Me.Label5.Text = "LastName"
         '
-        'TextBox8
+        'Label6
         '
-        Me.TextBox8.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.TextBox8.Location = New System.Drawing.Point(805, 63)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(184, 38)
-        Me.TextBox8.TabIndex = 73
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(673, 66)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(108, 33)
-        Me.Label8.TabIndex = 72
-        Me.Label8.Text = "Address"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(334, 68)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(85, 33)
-        Me.Label9.TabIndex = 71
-        Me.Label9.Text = "Phone"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.TextBox4.Location = New System.Drawing.Point(470, 63)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(184, 38)
-        Me.TextBox4.TabIndex = 70
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.TextBox1.Location = New System.Drawing.Point(119, 6)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(184, 38)
-        Me.TextBox1.TabIndex = 69
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.TextBox3.Location = New System.Drawing.Point(805, 6)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(184, 38)
-        Me.TextBox3.TabIndex = 68
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.TextBox2.Location = New System.Drawing.Point(470, 6)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(184, 38)
-        Me.TextBox2.TabIndex = 67
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(1011, 9)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(96, 33)
-        Me.Label4.TabIndex = 65
-        Me.Label4.Text = "Gender"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(16, 9)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(44, 33)
-        Me.Label2.TabIndex = 63
-        Me.Label2.Text = " ID"
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(334, 9)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(128, 33)
+        Me.Label6.TabIndex = 78
+        Me.Label6.Text = "FirstName"
         '
         'DataGridView1
         '
@@ -273,46 +200,119 @@ Partial Class Customer
         Me.Column9.Name = "Column9"
         Me.Column9.Width = 78
         '
-        'Label5
+        'Button2
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(673, 9)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(126, 33)
-        Me.Label5.TabIndex = 79
-        Me.Label5.Text = "LastName"
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Button2.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(1202, 62)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(100, 40)
+        Me.Button2.TabIndex = 76
+        Me.Button2.Text = "Update"
+        Me.Button2.UseVisualStyleBackColor = False
         '
-        'Label6
+        'Button1
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(334, 9)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(128, 33)
-        Me.Label6.TabIndex = 78
-        Me.Label6.Text = "FirstName"
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(1065, 64)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(100, 40)
+        Me.Button1.TabIndex = 75
+        Me.Button1.Text = "Insert"
+        Me.Button1.UseVisualStyleBackColor = False
         '
-        'Label3
+        'txtGender
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(16, 66)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(83, 33)
-        Me.Label3.TabIndex = 81
-        Me.Label3.Text = "E-mail"
+        Me.txtGender.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtGender.Location = New System.Drawing.Point(1118, 6)
+        Me.txtGender.Name = "txtGender"
+        Me.txtGender.Size = New System.Drawing.Size(184, 38)
+        Me.txtGender.TabIndex = 74
         '
-        'TextBox5
+        'txtCAddress
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.TextBox5.Location = New System.Drawing.Point(119, 61)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(184, 38)
-        Me.TextBox5.TabIndex = 80
+        Me.txtCAddress.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtCAddress.Location = New System.Drawing.Point(805, 63)
+        Me.txtCAddress.Name = "txtCAddress"
+        Me.txtCAddress.Size = New System.Drawing.Size(184, 38)
+        Me.txtCAddress.TabIndex = 73
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.Black
+        Me.Label8.Location = New System.Drawing.Point(673, 66)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(108, 33)
+        Me.Label8.TabIndex = 72
+        Me.Label8.Text = "Address"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Black
+        Me.Label9.Location = New System.Drawing.Point(334, 68)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(85, 33)
+        Me.Label9.TabIndex = 71
+        Me.Label9.Text = "Phone"
+        '
+        'txtCPhone
+        '
+        Me.txtCPhone.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtCPhone.Location = New System.Drawing.Point(470, 63)
+        Me.txtCPhone.Name = "txtCPhone"
+        Me.txtCPhone.Size = New System.Drawing.Size(184, 38)
+        Me.txtCPhone.TabIndex = 70
+        '
+        'txtCusID
+        '
+        Me.txtCusID.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtCusID.Location = New System.Drawing.Point(119, 6)
+        Me.txtCusID.Name = "txtCusID"
+        Me.txtCusID.Size = New System.Drawing.Size(184, 38)
+        Me.txtCusID.TabIndex = 69
+        '
+        'txtCLName
+        '
+        Me.txtCLName.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtCLName.Location = New System.Drawing.Point(805, 6)
+        Me.txtCLName.Name = "txtCLName"
+        Me.txtCLName.Size = New System.Drawing.Size(184, 38)
+        Me.txtCLName.TabIndex = 68
+        '
+        'txtCFName
+        '
+        Me.txtCFName.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtCFName.Location = New System.Drawing.Point(470, 6)
+        Me.txtCFName.Name = "txtCFName"
+        Me.txtCFName.Size = New System.Drawing.Size(184, 38)
+        Me.txtCFName.TabIndex = 67
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Black
+        Me.Label4.Location = New System.Drawing.Point(1011, 9)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(96, 33)
+        Me.Label4.TabIndex = 65
+        Me.Label4.Text = "Gender"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Location = New System.Drawing.Point(16, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(44, 33)
+        Me.Label2.TabIndex = 63
+        Me.Label2.Text = " ID"
         '
         'Customer
         '
@@ -339,14 +339,14 @@ Partial Class Customer
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents txtGender As TextBox
+    Friend WithEvents txtCAddress As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtCPhone As TextBox
+    Friend WithEvents txtCusID As TextBox
+    Friend WithEvents txtCLName As TextBox
+    Friend WithEvents txtCFName As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents DataGridView1 As DataGridView
@@ -357,7 +357,7 @@ Partial Class Customer
     Friend WithEvents Column8 As DataGridViewTextBoxColumn
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtCusEmail As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
 End Class
