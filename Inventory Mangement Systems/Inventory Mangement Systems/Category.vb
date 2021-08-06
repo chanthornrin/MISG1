@@ -32,14 +32,15 @@ Public Class Category
                 MsgBox("Record has been insert successfully,", vbInformation)
                 LoadRecord()
                 Clear()
-
-
-
             End If
         Catch ex As Exception
             Cn.Close()
             MsgBox(ex.Message, vbCritical)
         End Try
+
+    End Sub
+
+    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
     End Sub
 End Class

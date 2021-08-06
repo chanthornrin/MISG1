@@ -193,5 +193,32 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_bin_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_bin_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_18px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil_drawing_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_20_red px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

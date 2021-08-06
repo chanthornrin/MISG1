@@ -22,5 +22,50 @@ Inventory Mangement Systems
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.delete_bin_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.delete_bin_18px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.edit_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.edit_18px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.male_user_50px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.pencil_drawing_20px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.sale_16px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.sale_32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Inventory_Mangement_Systems.My.Resources.Resources.trash_20_red_px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

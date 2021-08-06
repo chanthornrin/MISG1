@@ -34,3 +34,6 @@ C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Sale.resources
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Supplier.resources
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory Mangement Systems.vbproj.GenerateResource.Cache
+C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.exe
+C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.pdb
+C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\bin\Debug\Inventory Mangement Systems.xml
