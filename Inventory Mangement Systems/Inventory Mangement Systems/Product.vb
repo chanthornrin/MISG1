@@ -69,13 +69,22 @@ Public Class Product
 
     End Sub
 
+    Sub addProductToStock(productId As String, productName As String, qty As Int16)
+        Cn.Open()
+        Cm = New SqlCommand("insert into tblStock(product_id,product_name,new_qty,total_stock,created_date)values('" & productId & "','" & productName & "','" & qty & "','" & qty & "','" & Date.Now() & "')", Cn)
+        Dr = Cm.ExecuteReader
+        Dr.Close()
+        Cn.Close()
+
+    End Sub
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             If (MsgBox("Are you sure you want to Insert?", vbYesNo + vbQuestion) = vbYes) Then
                 Cn.Open()
                 Cm = New SqlCommand("Select * from Category where Cat_Name= '" & cbcategory.Text & "'", Cn)
                 Dr = Cm.ExecuteReader
-                Dim categoryId As String
+                Dim categoryId As String = ""
                 While (Dr.Read)
                     categoryId = Dr("Cat_ID").ToString
                 End While
@@ -88,6 +97,7 @@ Public Class Product
 
                 Cn.Close()
                 MsgBox("Record has been insert successfully,", vbInformation)
+                addProductToStock(txtProId.Text, txtname.Text, txtQty.Text)
                 LoadRecord()
                 clear()
 

@@ -82,9 +82,9 @@ Public Class Mainform
     End Sub
 
     Private Sub PUrToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PUrToolStripMenuItem.Click
-        With Purches
+        With Purchase
             .TopLevel = False
-            Panel2.Controls.Add(Purches)
+            Panel2.Controls.Add(Purchase)
             .BringToFront()
             .Show()
         End With

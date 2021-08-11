@@ -127,10 +127,10 @@
     <Compile Include="Product.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Purches.Designer.vb">
-      <DependentUpon>Purches.vb</DependentUpon>
+    <Compile Include="Purchase.Designer.vb">
+      <DependentUpon>Purchase.vb</DependentUpon>
     </Compile>
-    <Compile Include="Purches.vb">
+    <Compile Include="Purchase.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sale.Designer.vb">
@@ -171,8 +171,8 @@
     <EmbeddedResource Include="Product.resx">
       <DependentUpon>Product.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Purches.resx">
-      <DependentUpon>Purches.vb</DependentUpon>
+    <EmbeddedResource Include="Purchase.resx">
+      <DependentUpon>Purchase.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sale.resx">
       <DependentUpon>Sale.vb</DependentUpon>
