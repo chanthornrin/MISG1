@@ -24,18 +24,7 @@ Partial Class Product
     Private Sub InitializeComponent()
         Me.Topproduct = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtProId = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column8 = New System.Windows.Forms.DataGridViewImageColumn()
-        Me.Column9 = New System.Windows.Forms.DataGridViewImageColumn()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -48,6 +37,18 @@ Partial Class Product
         Me.Button1 = New System.Windows.Forms.Button()
         Me.cbcategory = New System.Windows.Forms.ComboBox()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.cbEmployee = New System.Windows.Forms.ComboBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column9 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.Column10 = New System.Windows.Forms.DataGridViewImageColumn()
         Me.Topproduct.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -69,30 +70,11 @@ Partial Class Product
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(12, 0)
+        Me.Label1.Location = New System.Drawing.Point(495, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(144, 42)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Products"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(17, 74)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(35, 26)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = " ID"
-        '
-        'txtProId
-        '
-        Me.txtProId.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.txtProId.Location = New System.Drawing.Point(84, 71)
-        Me.txtProId.Name = "txtProId"
-        Me.txtProId.Size = New System.Drawing.Size(188, 32)
-        Me.txtProId.TabIndex = 2
         '
         'DataGridView1
         '
@@ -100,7 +82,7 @@ Partial Class Product
         Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.[Single]
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8, Me.Column9})
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8, Me.Column9, Me.Column10})
         Me.DataGridView1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.DataGridView1.EnableHeadersVisualStyles = False
         Me.DataGridView1.Location = New System.Drawing.Point(12, 176)
@@ -109,6 +91,143 @@ Partial Class Product
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(1308, 497)
         Me.DataGridView1.TabIndex = 3
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(70, 74)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(66, 26)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = " Name"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.Black
+        Me.Label4.Location = New System.Drawing.Point(388, 74)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(47, 26)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = " Qty"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(180, 126)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(90, 26)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "Category"
+        '
+        'txtSalePrice
+        '
+        Me.txtSalePrice.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtSalePrice.Location = New System.Drawing.Point(1038, 77)
+        Me.txtSalePrice.Name = "txtSalePrice"
+        Me.txtSalePrice.Size = New System.Drawing.Size(181, 32)
+        Me.txtSalePrice.TabIndex = 11
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(934, 77)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(98, 26)
+        Me.Label6.TabIndex = 10
+        Me.Label6.Text = "Sale Price"
+        '
+        'txtPrice
+        '
+        Me.txtPrice.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtPrice.Location = New System.Drawing.Point(758, 74)
+        Me.txtPrice.Name = "txtPrice"
+        Me.txtPrice.Size = New System.Drawing.Size(152, 32)
+        Me.txtPrice.TabIndex = 9
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.Black
+        Me.Label7.Location = New System.Drawing.Point(613, 77)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(129, 26)
+        Me.Label7.TabIndex = 8
+        Me.Label7.Text = "Original Price"
+        '
+        'txtname
+        '
+        Me.txtname.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtname.Location = New System.Drawing.Point(142, 72)
+        Me.txtname.Name = "txtname"
+        Me.txtname.Size = New System.Drawing.Size(236, 32)
+        Me.txtname.TabIndex = 14
+        '
+        'txtQty
+        '
+        Me.txtQty.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
+        Me.txtQty.Location = New System.Drawing.Point(441, 72)
+        Me.txtQty.Name = "txtQty"
+        Me.txtQty.Size = New System.Drawing.Size(154, 32)
+        Me.txtQty.TabIndex = 15
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(1072, 125)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(95, 37)
+        Me.Button1.TabIndex = 17
+        Me.Button1.Text = "Insert"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'cbcategory
+        '
+        Me.cbcategory.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbcategory.FormattingEnabled = True
+        Me.cbcategory.Location = New System.Drawing.Point(287, 127)
+        Me.cbcategory.Name = "cbcategory"
+        Me.cbcategory.Size = New System.Drawing.Size(308, 32)
+        Me.cbcategory.TabIndex = 18
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button2.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(1173, 124)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(95, 37)
+        Me.Button2.TabIndex = 19
+        Me.Button2.Text = "update"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'cbEmployee
+        '
+        Me.cbEmployee.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbEmployee.FormattingEnabled = True
+        Me.cbEmployee.Location = New System.Drawing.Point(724, 126)
+        Me.cbEmployee.Name = "cbEmployee"
+        Me.cbEmployee.Size = New System.Drawing.Size(308, 32)
+        Me.cbEmployee.TabIndex = 21
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Location = New System.Drawing.Point(617, 128)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(97, 26)
+        Me.Label2.TabIndex = 20
+        Me.Label2.Text = "Employee"
         '
         'Column1
         '
@@ -163,145 +282,35 @@ Partial Class Product
         '
         'Column8
         '
-        Me.Column8.HeaderText = "Edit"
-        Me.Column8.Image = Global.Inventory_Mangement_Systems.My.Resources.Resources.pencil_drawing_20px
-        Me.Column8.MinimumWidth = 6
+        Me.Column8.HeaderText = "Employee"
         Me.Column8.Name = "Column8"
-        Me.Column8.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.Column8.Width = 70
         '
         'Column9
         '
-        Me.Column9.HeaderText = "Delete"
-        Me.Column9.Image = Global.Inventory_Mangement_Systems.My.Resources.Resources.trash_20_red_px
+        Me.Column9.HeaderText = "Edit"
+        Me.Column9.Image = Global.Inventory_Mangement_Systems.My.Resources.Resources.pencil_drawing_20px
         Me.Column9.MinimumWidth = 6
         Me.Column9.Name = "Column9"
-        Me.Column9.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Column9.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         Me.Column9.Width = 70
         '
-        'Label3
+        'Column10
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(297, 74)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(66, 26)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = " Name"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(736, 75)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(47, 26)
-        Me.Label4.TabIndex = 6
-        Me.Label4.Text = " Qty"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(634, 132)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(90, 26)
-        Me.Label5.TabIndex = 12
-        Me.Label5.Text = "Category"
-        '
-        'txtSalePrice
-        '
-        Me.txtSalePrice.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.txtSalePrice.Location = New System.Drawing.Point(395, 129)
-        Me.txtSalePrice.Name = "txtSalePrice"
-        Me.txtSalePrice.Size = New System.Drawing.Size(181, 32)
-        Me.txtSalePrice.TabIndex = 11
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(268, 132)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(98, 26)
-        Me.Label6.TabIndex = 10
-        Me.Label6.Text = "Sale Price"
-        '
-        'txtPrice
-        '
-        Me.txtPrice.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.txtPrice.Location = New System.Drawing.Point(84, 129)
-        Me.txtPrice.Name = "txtPrice"
-        Me.txtPrice.Size = New System.Drawing.Size(152, 32)
-        Me.txtPrice.TabIndex = 9
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(17, 131)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(56, 26)
-        Me.Label7.TabIndex = 8
-        Me.Label7.Text = "Price"
-        '
-        'txtname
-        '
-        Me.txtname.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.txtname.Location = New System.Drawing.Point(427, 74)
-        Me.txtname.Name = "txtname"
-        Me.txtname.Size = New System.Drawing.Size(272, 32)
-        Me.txtname.TabIndex = 14
-        '
-        'txtQty
-        '
-        Me.txtQty.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.txtQty.Location = New System.Drawing.Point(808, 74)
-        Me.txtQty.Name = "txtQty"
-        Me.txtQty.Size = New System.Drawing.Size(154, 32)
-        Me.txtQty.TabIndex = 15
-        '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(1072, 125)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(95, 37)
-        Me.Button1.TabIndex = 17
-        Me.Button1.Text = "Insert"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'cbcategory
-        '
-        Me.cbcategory.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbcategory.FormattingEnabled = True
-        Me.cbcategory.Location = New System.Drawing.Point(741, 130)
-        Me.cbcategory.Name = "cbcategory"
-        Me.cbcategory.Size = New System.Drawing.Size(308, 32)
-        Me.cbcategory.TabIndex = 18
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button2.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(1173, 124)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(95, 37)
-        Me.Button2.TabIndex = 19
-        Me.Button2.Text = "update"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.Column10.HeaderText = "Delete"
+        Me.Column10.Image = Global.Inventory_Mangement_Systems.My.Resources.Resources.trash_20_red_px
+        Me.Column10.MinimumWidth = 6
+        Me.Column10.Name = "Column10"
+        Me.Column10.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Column10.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.Column10.Width = 70
         '
         'Product
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(1358, 685)
+        Me.Controls.Add(Me.cbEmployee)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.cbcategory)
         Me.Controls.Add(Me.Button1)
@@ -315,8 +324,6 @@ Partial Class Product
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.txtProId)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Topproduct)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Product"
@@ -332,8 +339,6 @@ Partial Class Product
 
     Friend WithEvents Topproduct As Panel
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents txtProId As TextBox
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
@@ -346,6 +351,9 @@ Partial Class Product
     Friend WithEvents txtQty As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents cbcategory As ComboBox
+    Friend WithEvents Button2 As Button
+    Friend WithEvents cbEmployee As ComboBox
+    Friend WithEvents Label2 As Label
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
@@ -353,7 +361,7 @@ Partial Class Product
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewTextBoxColumn
-    Friend WithEvents Column8 As DataGridViewImageColumn
+    Friend WithEvents Column8 As DataGridViewTextBoxColumn
     Friend WithEvents Column9 As DataGridViewImageColumn
-    Friend WithEvents Button2 As Button
+    Friend WithEvents Column10 As DataGridViewImageColumn
 End Class
