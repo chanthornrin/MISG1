@@ -25,12 +25,16 @@ Partial Class saledetail
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Topproduct = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
+        Me.Topproduct.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.Info
+        Me.Panel1.Controls.Add(Me.Topproduct)
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -42,7 +46,7 @@ Partial Class saledetail
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold)
-        Me.TextBox1.Location = New System.Drawing.Point(120, 20)
+        Me.TextBox1.Location = New System.Drawing.Point(126, 87)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(184, 38)
         Me.TextBox1.TabIndex = 49
@@ -52,11 +56,34 @@ Partial Class saledetail
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(17, 23)
+        Me.Label2.Location = New System.Drawing.Point(49, 87)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(44, 33)
         Me.Label2.TabIndex = 48
         Me.Label2.Text = " ID"
+        '
+        'Topproduct
+        '
+        Me.Topproduct.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Topproduct.Controls.Add(Me.Label1)
+        Me.Topproduct.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Topproduct.Location = New System.Drawing.Point(0, 0)
+        Me.Topproduct.Name = "Topproduct"
+        Me.Topproduct.Size = New System.Drawing.Size(1436, 57)
+        Me.Topproduct.TabIndex = 50
+        '
+        'Label1
+        '
+        Me.Label1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Arial Narrow", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(12, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(97, 52)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Sale"
         '
         'saledetail
         '
@@ -69,6 +96,8 @@ Partial Class saledetail
         Me.Text = "saledetail"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Topproduct.ResumeLayout(False)
+        Me.Topproduct.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -76,4 +105,6 @@ Partial Class saledetail
     Friend WithEvents Panel1 As Panel
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents Topproduct As Panel
+    Friend WithEvents Label1 As Label
 End Class
