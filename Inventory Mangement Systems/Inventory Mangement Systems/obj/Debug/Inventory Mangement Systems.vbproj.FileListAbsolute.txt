@@ -30,7 +30,6 @@ C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Mainform.resources
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Resources.resources
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Product.resources
-C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Purches.resources
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Sale.resources
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Supplier.resources
 C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory Mangement Systems.vbproj.GenerateResource.Cache
@@ -56,3 +55,4 @@ C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mange
 C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Sale.resources
 C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Supplier.resources
 C:\Users\User\Documents\GitHub\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory Mangement Systems.vbproj.GenerateResource.Cache
+C:\Users\Backend\Documents\MISG1\Inventory Mangement Systems\Inventory Mangement Systems\obj\Debug\Inventory_Mangement_Systems.Purchase.resources
