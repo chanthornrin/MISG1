@@ -13,11 +13,11 @@ Public Class Category
         Dim i As Integer = 0
         DataGridViewCategory.Rows.Clear()
         Cn.Open()
-        Cm = New SqlCommand("Select * from Category", Cn)
+        Cm = New SqlCommand("Select * from category", Cn)
         Dr = Cm.ExecuteReader
         While Dr.Read
             i += 1
-            DataGridViewCategory.Rows.Add(Dr.Item("Cat_ID").ToString, i, Dr.Item("Cat_Name").ToString, Dr.Item("Brand").ToString)
+            DataGridViewCategory.Rows.Add(Dr.Item("id").ToString, i, Dr.Item("name").ToString, Dr.Item("description").ToString, Dr.Item("date").ToString)
         End While
         Dr.Close()
         Cn.Close()
@@ -26,7 +26,7 @@ Public Class Category
         Try
             If (MsgBox("Are you sure you want to Insert?", vbYesNo + vbQuestion) = vbYes) Then
                 Cn.Open()
-                Cm = New SqlCommand(" insert into Category (Cat_Name,Brand) values('" & txtcatname.Text & "','" & txtcatbrand.Text & "')", Cn)
+                Cm = New SqlCommand(" insert into category (name,description,date) values('" & txtcatname.Text & "','" & txtcatbrand.Text & "','" & Date.Now() & "')", Cn)
                 Cm.ExecuteNonQuery()
                 Cn.Close()
                 MsgBox("Record has been insert successfully,", vbInformation)
@@ -42,5 +42,9 @@ Public Class Category
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
+    End Sub
+
+    Private Sub Category_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        DataGridViewCategory.DefaultCellStyle.Font = New Font("Arial", 10)
     End Sub
 End Class
