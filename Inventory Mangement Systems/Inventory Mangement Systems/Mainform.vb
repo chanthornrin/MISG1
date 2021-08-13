@@ -98,4 +98,13 @@ Public Class Mainform
             .Show()
         End With
     End Sub
+
+    Private Sub ToolStripMenuItem5_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem5.Click
+        With Order
+            .TopLevel = False
+            Panel2.Controls.Add(Order)
+            .BringToFront()
+            .Show()
+        End With
+    End Sub
 End Class

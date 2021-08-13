@@ -24,6 +24,7 @@ Partial Class Mainform
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Mainform))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CreateUsersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -31,12 +32,12 @@ Partial Class Mainform
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem5 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PUrToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SaleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StocksToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.PUrToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -45,12 +46,20 @@ Partial Class Mainform
         Me.MenuStrip1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingToolStripMenuItem, Me.ToolStripMenuItem1, Me.SupplierToolStripMenuItem, Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4, Me.StocksToolStripMenuItem, Me.SaleToolStripMenuItem, Me.PUrToolStripMenuItem, Me.ReportToolStripMenuItem, Me.LogoutToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingToolStripMenuItem, Me.ToolStripMenuItem1, Me.SupplierToolStripMenuItem, Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4, Me.ToolStripMenuItem5, Me.PUrToolStripMenuItem, Me.SaleToolStripMenuItem, Me.StocksToolStripMenuItem, Me.ReportToolStripMenuItem, Me.LogoutToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1436, 40)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'Panel2
+        '
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel2.Location = New System.Drawing.Point(0, 40)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1436, 686)
+        Me.Panel2.TabIndex = 2
         '
         'SettingToolStripMenuItem
         '
@@ -72,7 +81,7 @@ Partial Class Mainform
         Me.CreateUsersToolStripMenuItem.Image = CType(resources.GetObject("CreateUsersToolStripMenuItem.Image"), System.Drawing.Image)
         Me.CreateUsersToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.CreateUsersToolStripMenuItem.Name = "CreateUsersToolStripMenuItem"
-        Me.CreateUsersToolStripMenuItem.Size = New System.Drawing.Size(236, 38)
+        Me.CreateUsersToolStripMenuItem.Size = New System.Drawing.Size(231, 38)
         Me.CreateUsersToolStripMenuItem.Text = "Create Users"
         '
         'ToolStripMenuItem1
@@ -125,6 +134,36 @@ Partial Class Mainform
         Me.ToolStripMenuItem4.Size = New System.Drawing.Size(126, 36)
         Me.ToolStripMenuItem4.Text = "Category"
         '
+        'ToolStripMenuItem5
+        '
+        Me.ToolStripMenuItem5.Font = New System.Drawing.Font("Arial Narrow", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripMenuItem5.ForeColor = System.Drawing.Color.White
+        Me.ToolStripMenuItem5.Image = CType(resources.GetObject("ToolStripMenuItem5.Image"), System.Drawing.Image)
+        Me.ToolStripMenuItem5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(99, 36)
+        Me.ToolStripMenuItem5.Text = "Order"
+        '
+        'PUrToolStripMenuItem
+        '
+        Me.PUrToolStripMenuItem.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PUrToolStripMenuItem.ForeColor = System.Drawing.Color.White
+        Me.PUrToolStripMenuItem.Image = CType(resources.GetObject("PUrToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.PUrToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.PUrToolStripMenuItem.Name = "PUrToolStripMenuItem"
+        Me.PUrToolStripMenuItem.Size = New System.Drawing.Size(112, 36)
+        Me.PUrToolStripMenuItem.Text = "Purches"
+        '
+        'SaleToolStripMenuItem
+        '
+        Me.SaleToolStripMenuItem.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.SaleToolStripMenuItem.ForeColor = System.Drawing.Color.White
+        Me.SaleToolStripMenuItem.Image = CType(resources.GetObject("SaleToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.SaleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.SaleToolStripMenuItem.Name = "SaleToolStripMenuItem"
+        Me.SaleToolStripMenuItem.Size = New System.Drawing.Size(89, 36)
+        Me.SaleToolStripMenuItem.Text = "Sale"
+        '
         'StocksToolStripMenuItem
         '
         Me.StocksToolStripMenuItem.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -154,34 +193,6 @@ Partial Class Mainform
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
         Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(111, 36)
         Me.LogoutToolStripMenuItem.Text = "Logout"
-        '
-        'Panel2
-        '
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(0, 40)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1436, 686)
-        Me.Panel2.TabIndex = 2
-        '
-        'PUrToolStripMenuItem
-        '
-        Me.PUrToolStripMenuItem.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PUrToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.PUrToolStripMenuItem.Image = CType(resources.GetObject("PUrToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.PUrToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.PUrToolStripMenuItem.Name = "PUrToolStripMenuItem"
-        Me.PUrToolStripMenuItem.Size = New System.Drawing.Size(112, 36)
-        Me.PUrToolStripMenuItem.Text = "Purches"
-        '
-        'SaleToolStripMenuItem
-        '
-        Me.SaleToolStripMenuItem.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.SaleToolStripMenuItem.ForeColor = System.Drawing.Color.White
-        Me.SaleToolStripMenuItem.Image = CType(resources.GetObject("SaleToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.SaleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
-        Me.SaleToolStripMenuItem.Name = "SaleToolStripMenuItem"
-        Me.SaleToolStripMenuItem.Size = New System.Drawing.Size(89, 36)
-        Me.SaleToolStripMenuItem.Text = "Sale"
         '
         'Mainform
         '
@@ -215,4 +226,5 @@ Partial Class Mainform
     Friend WithEvents CreateUsersToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SaleToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PUrToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem5 As ToolStripMenuItem
 End Class
